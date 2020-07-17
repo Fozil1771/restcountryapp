@@ -1,4 +1,6 @@
-# Coutry app 
+# Coutries app 
+
+![Design preview for the Clipboard landing page coding challenge](./images/desktop-preview.jpg)
 
 This is a demonstration of the of restcountries api
 
