@@ -1,0 +1,16 @@
+{
+  "name": "restcountryapp",
+  "version": "1.0.0",
+  "description": "\"App with the use of restcoutry api\"",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "Fozil Zayn",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

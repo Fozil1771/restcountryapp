@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+}
+
+.theme {
+    color: #ffffff !important;
+    background: #333 !important;
+    transition: all .3s;
+}
+
+i {
+    color: #000000 !important;
+}
+
+.layout {
+    background-color: hsl(0, 0%, 98%);
+}
+
+.btn {
+    // margin-right: auto;
+    padding: .5rem 1rem;
+    font-size: 1rem;
+    font-weight: 300;
+    background-color: #ffffff;
+    color: #000000;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0px 8px 10px 0px rgba(0,0,0,0.2);
+    transition: all .4s;
+    margin: 2rem;
+
+    &:hover {
+        transform: scale(1.1) translateX(-10px);
+    }
+.btn-back {
+    @media (max-width: 767px) {
+        &{
+           margin: 3rem;
+        }
+    }
+}
+}
+
+@import './navbar';
+@import './layout';
+@import './details';
+@import './switch';
+@import './loader';
+
+
+.footer {
+    visibility: hidden;
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    -webkit-box-shadow: 0px -3px 7px -4px rgba(51,51,51,1);
+    -moz-box-shadow: 0px -3px 7px -4px rgba(51,51,51,1);
+    box-shadow: 0px -3px 7px -4px rgba(51,51,51,1);
+    color: #333;
+
+    &__text {
+        font-size: 1.4rem;
+        font-weight: 600;
+    }
+
+    &.show {
+       visibility: visible;
+    }
+
+}
